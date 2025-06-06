@@ -1,0 +1,39 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "plugins": [],
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentyfour"
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/stefanduerrenberger/optimize-playground/refs/heads/main/planet4-gpch-plugin-optimize-0.4.1.zip"
+      }
+    },
+    {
+      "step": "importWxr",
+      "file": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/stefanduerrenberger/optimize-playground/refs/heads/main/wp-pages.xml"
+      }
+    }
+  ],
+  "preferredVersions": {
+    "php": "8.0",
+    "wp": "latest"
+  },
+  "features": {
+    "networking": true
+  },
+  "siteOptions": {
+    "permalink_structure": "/%postname%/"
+  },
+  "landingPage": "/wp-admin/post.php?post=7&action=edit",
+  "login": true
+}
