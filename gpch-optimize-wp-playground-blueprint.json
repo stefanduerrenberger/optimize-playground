@@ -13,14 +13,14 @@
       "step": "installPlugin",
       "pluginData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/stefanduerrenberger/optimize-playground/refs/heads/main/planet4-gpch-plugin-optimize-0.4.1.zip"
+        "url": "https://raw.githubusercontent.com/stefanduerrenberger/optimize-playground/refs/heads/main/content/planet4-gpch-plugin-optimize-0.4.1.zip"
       }
     },
     {
       "step": "importWxr",
       "file": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/stefanduerrenberger/optimize-playground/refs/heads/main/wp-pages.xml"
+        "url": "https://raw.githubusercontent.com/stefanduerrenberger/optimize-playground/refs/heads/main/content/wp-pages.xml"
       }
     }
   ],
